@@ -7,6 +7,10 @@ public class Main1 {
 		//EJERCIO 1
 		//Crea un programa en Java en donde se muestre la estructura basica del mismo
 		
+		//Definicion de clase                
+		//Definicion de un metodo
+		//Sentencia 
+		System.out.println("Esto es una sentencia");
 		
 		//EJERCIO 2
 		//Crea un program en donde se muestren los diferentes tipos de comentarios que hay en Java
