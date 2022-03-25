@@ -71,6 +71,11 @@ public class Main1 {
 		//EJERCICIO 6
 		//Utilizar el tipo de dato entero para crear al menos 5 variables con numeros octales y hexadecimales.
 		
+		int octal = 2143898;
+		System.out.println("Octal: "+octal);
+		
+		int hexadecimal = 43222;
+		System.out.println("Hexadecimal: "+ hexadecimal);
 		
 		
 		
