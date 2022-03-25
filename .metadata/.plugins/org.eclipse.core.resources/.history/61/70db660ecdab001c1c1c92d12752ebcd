@@ -1,0 +1,20 @@
+package controlador;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*este es un comentario
+		 *varios comentario
+		 *hola mundo
+		 */
+		
+		System.out.println("hola este es mi nombre");
+		
+		int contador;
+		contador = 10;
+		System.out.println(contador);
+
+	}
+
+}

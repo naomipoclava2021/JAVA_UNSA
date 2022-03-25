@@ -1,0 +1,41 @@
+package controlador;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*este es un comentario
+		 *varios comentario
+		 *hola mundo
+		 */
+		
+		System.out.println("hola este es mi nombre");
+		
+		byte edad; //tiene un rango de numeros
+		edad = 10;
+		System.out.println(edad);
+		
+		char caracter;
+		caracter = '@';
+		System.out.println(caracter);
+		
+		// identificadores vailidos
+		int numero = 5;
+		double atura = 1.3;
+		String nombreDelChico = "ramiro";
+		
+		//indentificadore no validos
+		/*int 5sum = 4; //no pude comenzar con un numero
+		*String #nombre = "ramiro"; //no puede iniciar con un caracter
+		*double peso-altura = 60; //para unir debo usar _
+		*/
+		
+		String nombre = "naomi";
+		System.out.println("Bienvenido a mil programadores "+ nombre);
+		
+
+		
+
+	}
+
+}
