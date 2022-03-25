@@ -169,6 +169,13 @@ public class Main1 {
 		//Conversion de tipos. Realizar un programa que muestre la conversion de tipo uppcasting y downcating.
 		//Usar tipos enteros y decimales.
 		
+		int temperatura = (int)centigrados;
+		System.out.println("Coversion de double a int el resultador es: "+temperatura);
+		
+		float perimetroHaDecimal = (float)perimetro;
+		System.out.println("El resultado de convetir double a float es: " + perimetroHaDecimal);
+
+		
 		//EJERCICIO 15
 		//Sera posible almacenar un tipo de dato char en un tipo entero? De ser posible explique con comentarios el porque.
 		char sePuedeAlmacenarEntero = 23;
