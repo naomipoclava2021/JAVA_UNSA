@@ -8,6 +8,9 @@ public class Ejercicio3 {
 		// Declarar tres variables de tipo entero, asignar un valor cualquiera y mostrar
 		// el mayor
 		// y el menor.
+		int num1 = 1;
+		int num2 = 12;
+		int num3 = 13;
 
 	}
 

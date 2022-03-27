@@ -10,6 +10,12 @@ public class Ejercicio1 {
 		// mostrar el mensaje
 		// "Mi nombre es... y mi edad es..."
 
+		String nombre;
+		int edad;
+		nombre = "Naomi";
+		edad = 21;
+		System.out.println("Mi nombre es " + nombre + " y mi edad es " + edad);
+
 	}
 
 }
