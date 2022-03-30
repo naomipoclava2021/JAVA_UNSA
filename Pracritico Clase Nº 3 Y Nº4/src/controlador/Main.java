@@ -109,6 +109,8 @@ public class Main {
 		// anteceden. Por
 		// ejemplo si k=12 la salida sera {2,3,5,7,11}
 
+		// ya que no tengo nada que hacer
+
 	}
 
 }
