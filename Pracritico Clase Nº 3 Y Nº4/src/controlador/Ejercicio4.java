@@ -12,6 +12,23 @@ public class Ejercicio4 {
 		// Mostrar las resta
 		// Mostrar Division
 
+		int valor1 = 12;
+		int valor2 = 2;
+
+		int suma = valor1 + valor2;
+		int resta = valor1 - valor2;
+		int multiplicacion = valor1 * valor2;
+
+		System.out.printf("el resultado de la suma es %s\n", suma);
+		System.out.printf("el resultado de la resta es: %s\n", resta);
+		System.out.printf("el resultado de la mutiplicacion es %s\n", multiplicacion);
+
+		if (valor2 != 0) {
+			System.out.println("el resultado de la division es: " + (valor1 / valor2));
+		} else {
+			System.out.println("No se puede dividir por cero");
+		}
+
 	}
 
 }

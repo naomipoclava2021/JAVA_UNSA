@@ -13,6 +13,13 @@ public class Ejercicio7 {
 		// mostrar el resto
 		// entre dividendo y divisor.
 
+		int dividendo = 25 / 10;
+		System.out.println(dividendo);
+		int divisor = 10;
+
+		int resultado = dividendo % divisor; // no se puede hacer el resto de 2%10
+		System.out.println(resultado);
+
 	}
 
 }

@@ -10,11 +10,10 @@ public class Ejercicio1 {
 		// mostrar el mensaje
 		// "Mi nombre es... y mi edad es..."
 
-		String nombre;
-		int edad;
-		nombre = "Naomi";
-		edad = 21;
-		System.out.println("Mi nombre es " + nombre + " y mi edad es " + edad);
+		String nombre = "Naomi"; // Inicializo y Asigno el nombre
+		byte edad = 21; // Inicializo y Asigno edad
+
+		System.out.printf("Mi nombre es %s ", nombre + " y mi edad es " + edad + " años"); // imprimir por pantalla
 
 	}
 

@@ -9,6 +9,12 @@ public class Ejercicio10 {
 		// un triangulo.
 		// Asigne un valor cualquiera a cada una y muestre la superficie del mismo.
 
+		int base = 5;
+		int altura = 3;
+
+		int area = (base * altura) / 2;
+		System.out.println("el area de un triangulo es " + area);
+
 	}
 
 }
