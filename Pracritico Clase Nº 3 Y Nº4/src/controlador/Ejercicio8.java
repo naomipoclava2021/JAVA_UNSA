@@ -14,9 +14,9 @@ public class Ejercicio8 {
 		Scanner captura = new Scanner(System.in);
 		System.out.println("Ingresa de sus segundos:");
 
-		int var = captura.nextInt();
+		double segundos = captura.nextDouble();
 
-		double resul = (double) var / 60;
+		double resul = (double) segundos / 60;
 
 		System.out.println("Tiene " + resul + " minutos");
 

@@ -24,7 +24,10 @@ public class Ejercicio4 {
 		System.out.printf("el resultado de la mutiplicacion es %s\n", multiplicacion);
 
 		if (valor2 != 0) {
-			System.out.println("el resultado de la division es: " + (valor1 / valor2));
+			int division = valor1 / valor2;
+			int resto = valor1 % valor2;
+			System.out.println("el resultado de la division es: " + division);
+			System.out.println("el resultado del resto es: " + resto);
 		} else {
 			System.out.println("No se puede dividir por cero");
 		}
