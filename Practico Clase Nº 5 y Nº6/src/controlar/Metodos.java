@@ -8,7 +8,6 @@ public class Metodos {
 		double numero2 = 2;
 
 		System.out.println(suma(numero1, numero2));
-		System.out.println(resto(numero1, numero2));
 
 	}
 
@@ -16,11 +15,6 @@ public class Metodos {
 		double suma;
 		suma = num1 + num2;
 		return suma;
-	}
-
-	public static double resto(double num1, double num2) {
-		double resto = num1 % num2;
-		return resto;
 	}
 
 }

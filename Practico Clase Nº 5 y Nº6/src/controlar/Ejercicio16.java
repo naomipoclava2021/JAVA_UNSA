@@ -1,5 +1,7 @@
 package controlar;
 
+import java.util.Scanner;
+
 public class Ejercicio16 {
 
 	public static void main(String[] args) {
@@ -11,6 +13,25 @@ public class Ejercicio16 {
 		 * el main.
 		 */
 
+		int opcion;
+		Scanner entrada = new Scanner(System.in);
+
+		System.out.println("Nuestras opciones : 1)INICIO - 2)DASHBOARD- 3)HOME - 4)PANEL: ");
+		System.out.println("Ingresar un numero: ");
+		opcion = entrada.nextInt();
+
+		if (opcion == 1) {
+			System.out.println("INICIO");
+		} else if (opcion == 2) {
+			System.out.println("DESHBOARD");
+		} else if (opcion == 3) {
+			System.out.println("HOME");
+		} else if (opcion == 4) {
+			System.out.println("PANEL");
+		} else {
+			System.out.println("No ingreso el numero correcto");
+		}
+		entrada.close();
 	}
 
 }
