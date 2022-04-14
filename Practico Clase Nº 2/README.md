@@ -1,14 +1,59 @@
-![HenryLogo](https://1000marcas.net/wp-content/uploads/2020/11/Java-logo.png)
+![LogoJava](https://dev.java/assets/images/java-logo-vert-blk.png)
 
-# Primeros Pasos
+# 1000 Programadores Salteños
 
-## Grabación de la Clase 1
+## MODULO 1
 
-<div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/675578368" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
+Formulacion de ploblemas. Etapas en la resolucion de problemas computacionales. Algoritmo. Definicion.
+Primeros paso en Java. Caracteristicas. Pseudocodigo. Estructura fundamentales.
+Estructura de un programa en Java - Comentario - Idenficadores - Variables - Tipos de Datos - Tipos primitivos-
+Literales - Operaciones - Expresiones - Conversion de tipos - Palabras reservadas.
 
-#### Preparando tu computadora
+## Clase N°2
+
+### Trabajo Practico N°1 Modulo 1 - Clase 2
+
+## Ejercicio 1
+Crear un programa en Java en donde se muestre la estructura basica del mismo.
+
+## Ejercicio 2
+Crea un programa en donde se muestren los diferentes tipos de comentarios que hay en Java.
+
+## Ejercicio 3
+Crear un programa en donde se declaren, al menos 3 identificadores validos y 3 invalidos, a estos poner el comentario el porque son incorrectas.
+
+## Ejercicio 4
+Declarar 5 variables de cada tipo de datos que utiliza Java. Dar formato al codigo maediante comentarios.
+
+## Ejercicio 5
+
+## Ejercicio 6
+
+## Ejercicio 7
+
+## Ejercicio 8
+
+## Ejercicio 9
+
+## Ejercicio 10
+
+## Ejercicio 11
+
+## Ejercicio 12
+
+## Ejercicio 13
+
+## Ejercicio 14
+
+## Ejercicio 15
+
+
+
+
+
+
+
+
 Antes de comenzar deberás descargar en tu computadora las siguientes herramientas de trabajo:
 1. Editor de texto
 2. Git
