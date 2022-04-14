@@ -1,237 +1,94 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
-## Grabación de la Clase 2
+# 1000 Programadores Salteños
+![MilProgramadoresSalteños](https://yt3.ggpht.com/nOWBL1Um0OIYNdmqW234zI1yxFbzgOiLR_2_fVBFb-c4mlNX0gq1KjIITaj5mywt5lZwy53Rgkc=s176-c-k-c0x00ffffff-no-rj)
 
-<div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/674888247" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
+## MODULO 1
+Cadenas. Operadores Aritmeticos combinados con asignacion. Sentencia if. Expresiones anidadas. Ciclos o Bucles (sentecias while - sentencias for).
 
-## Variables
+## Clase N°3 y N°4
+![LogoJava](https://dev.java/assets/images/java-logo-vert-blk.png)
 
-Una variable es un espacio de memoria donde guardamos un dato, ese espacio de memoria a la vez recibe un nombre y esto conforma la estructura de datos más simple que podemos encontrar.
+### Trabajo Practico N°1 Modulo 1 - Clase 3-4
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen01.jpg)
+## Ejercicio 1
+Declarar una variable de tipo cadena (String) y una variable de tipo entero, asignar a la variable string tu nombre y a la varible entera tu edad y mostrar 
+el mensaje "Mi nombre es ... y mi edad es ..."
 
-Por otro lado existen ciertas normas a la hora de nombrar variables:
+## Ejercicio 2
+Declara dos variables de tipo entero, asignar un valor y mostrarla por pantalla.
 
-* El nombre no puede empezar con un número<br>
-  Por ejemplo "mi_variable" sería correcto, pero "123mi_variable" sería erróneo 
-* No se permite el uso de guiones del medio -<br>
-  Por ejemplo "mi-variable" sería erróneo
-* No se permite el uso de espacios.<br>
-  Por ejemplo "mi variable" sería erróneo
-* No usar nombres reservados para Python. Las palabras reservadas son utilizadas por Python internamente, por lo que no podemos usarlas para nuestras variables o funciones.<br>
-  Por ejemplo, a veces podríamos usar "int" ó "for" y esto nos daría error, porque como se verá más adelante, esas palabras son parte de la sintaxis de Python.
+## Ejercicio 3
+Declarar tres variables de tipo entero, asignar un valor cualquiera y mostrar el mayor y el menor.
 
-### Constantes
+## Ejercicio 4
+Declarar dos variables, asignar un valor cualquiera y realizar las siguientes operaciones:
+* Mostrar la suma
+* Mostrar la multiplicacion
+* Mostrar la resta
+* Mostrar la Division
 
-Sin embargo, cuando ese dato no lo alojamos en una variable y lo utilizamos directamente, recibe el nombre de constante.
 
-### Tipos de Datos
+## Ejercicio 5
+Declare un variable de tipo entero y asine un valor cualquiera, determine si el numero es par o impar y muestre un mensaje con esa informacion. mensaje: 
+"El numero... es(par o impar)".
 
-Es importante notar, que podemos encontrarnos con datos de tipos distintos, es decir numéricos, alfanuméricos o booleanos.
+## Ejercicio 6
+Declare  dos variables de tipo flotante, asigne un valor a cada una, calcule el promedio y muestrelo por consola.
 
-En Python tenemos los siguientes:
- * Enteros: el conjunto de números enteros
- * Floats: el conjunto de números reales o de punto flotante
- * Cadenas o Strings: es texto, caracteres alfanuméricos que se introducen entre comillas dobles o simples
- * Booleanos: representan Verdadero ó Falso
- * Complejos: el conjunto de números complejos
+## Ejercicio 7
+Declare dos variables de tipo entero una con el nombre divisor y la otra dividendo. Asigne a dividendo el valor 25 y a la varible divisor el valor 10. Muestre
+el resto (%) de la division entre el dividendo y divisor. Luego a dividendo asigne el valor 25/10. Y vuelva a mostrar el resto entre dividendo y divisor.
 
-Todo valor que pueda ser asignado a una variable tiene asociado un tipo de dato y esto establece qué operaciones se pueden realizar sobre la misma.
+## Ejercicio 8
+Calcular la cantidad de minutos que hay existen en una cantidad de segundos ingresada por el usuario.
 
+## Ejercicio 9
+Dados tres numeros, mostrarlo ordenados ascendentemente
+
+## Ejercicio 10
+Declare dos variables base y altura, que representan la base y la altura de un triangulo. Asigne un valor cualquiera  a cada una y muestre la superficie del mismo.
+
+## Ejercicio 11
+Dado 3 numeros naturales que representan los lados de un triangulo, se pide determinar si el triangulo es Isosceles, Escaleno o Equilatero.
+Info
 <hr width="75%">
   <p align="center">
-  Tip: En Python hay algunas funcionalidades ya presentes por defecto, como por ejemplo la funcion **print()** que permite mostrar una salida por pantalla y la función range() que devuelve un rango numérico según los parámetros que recibe y con la función **type()** es posible ver el tipo de dato de una variable
+   Tipos de triangulos segun la longitud de sus lados, los triangulos pueden clasificarse en:
+  1. Equilatero: Todos sus lados son igules.
+  2. Isoceles: Dos de sus tres lados son de igual longitud.
+  3. Escaleno: Todos sus lados son de diferente longitud.
   </p>
 <hr width="75%">
 
-### Operaciones entre Variables
 
-Con diferentes tipos de datos podemos hacer diferentes tipos de operaciones. Y hay operaciones no permitidas entre variables de diferentes tipos de datos.
+## Ejercicio 12
+Dada una lista de las edades de N deportistas, se necesita informar la edad promedio de los deportistas de la lista; cual es la menor y la  mayor edad ingresada.
 
-**Operaciones aritméticas:**
+## Ejercicio 13
+Dado un natural K. Generar y mostrar todos los numeros enteros pares comprendidos en el intervalo [-K,K]. Considerar K mayor que 1.
 
-| Operación | Operador | Ejemplo |
-| :---      |  :----:  |    ---: |
-| Suma      | + | 3 + 5.5 = 8.5 |
-| Resta   | -  | 4 - 1 = 3  |
-| Multiplicación | *  | 4 * 2 = 8  |
-| Potenciación | 4<sup>2</sup>  | 4**2 = 16  |
-| División (Cociente) | /  | 4 / 2 = 2  |
-| División (parte entera) | //  | 14 // 3 = 4  |
-| División (resto) | %  | 14 % 3 =  2 |
+## Ejercicio 14
+Conversion de tipos. Realizar un programa que muestre la conversion de tipos uppcasting y downcasting. Usar tipos enteros y decimales.
 
-**Operadores relacionales:**
+## Ejercicio 15
+Dado un numero natural N. Determinar si este es primo.
 
-| Operación | Operador | Ejemplo |
-| :---      |  :----:  |    ---: |
-| == | Igual | 10 == 3 = False |
-| != | Distinto | 10 != 3 = True |
-| >	| Mayor	| 10 > 3 = True |
-| < | Menor	| 10 < 3 = False |
-| >= | Mayor o igual | 10 >= 3 = True |
-| <= | Menor o igual | 10 <= 3 = False |
+## Ejercicio 16
+Dado un numero natural n mostrar sus digitos individualmente.
 
-**Operaciones de asignación:**
+## Ejercicio 17
+Dada una lista de numeros naturales mostrar aquellos que tengan una cantidad par de digitos pares.
 
-| Operación | Operador | Ejemplo |
-| :---      |  :----:  |    ---: |
-| =   | x=7  | x=7  |
-| +=  | x+=2  | x=x+2 = 9  |
-| -=  | x-=2  | x=x-2 = 5  |
-| *=  | x*=2  | x=x*2 = 14  |
-| /=  | x/=2  | x=x/2 = 3.5  |
-| %=  | x%=2  | x=x%2 = 1  |
-| //=  | x//=2  | x=x//2 = 3  |
-| **=  | x**=2  | x=x**2 = 49  |
-| &=  | x&=2  | x=x&2 = 2  |
-| ^=  | x^=2  | x=x^2 = 5  |
-| >>=  | x>>=2  | x=x>>2 = 1  |
-| <<= | x<<=2 | x=x<<=2 = 28  |
-
-
-Operación: |=   <br>
-Operador: x|=2  <br>
-Ejemplo: x=x|2 = 7  <br>
-
-Cuando tratamos con texto, podemos hacer otras operaciones:
-
-| Operación | Operador | Ejemplo |
-| :---      |  :----:  |    ---: |
-| Concatenar | + | 'hola ' + 'mundo !' = 'hola mundo!' |
-| Multiplicar | * | 'ja ' * 3 = 'ja ja ja' |
-
-Algunos ejemplos en Python:
-
-```python
->>> a = 'Hola '
->>> b = 'Mundo !'
->>> print(a + b)
-Hola Mundo !
-
->>> x = 3
->>> y = 12
->>> print(x + y)
-15
-
->>> print(a + x)
----------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-~\AppData\Local\Temp/ipykernel_18232/136165486.py in <module>
-----> 1 print(a + x)
-
-TypeError: can only concatenate str (not "int") to str
-```
-
-Notar que en las operaciones que no están permitidas arroja un error, que es muy descriptivo. En este caso no es posible sumar un valor entero con un valor alfanumérico.
-
-```python
->>> # Dividir "y" entre "x"
->>> y = 9
->>> x = 3
->>> print(y/x)
-3.0
-
->>> # Potencia de "y" elevado a la "x"
->>> y = 2
->>> x = 4
->>> print(y**x)
-16
-
->>> # Devolver el resto de la división
->>> y = 13
->>> x = 3
->>> print(y%x)
-1
-
->>> # Imprimir el tipo de dato de una variable y una constante
->>> y = 2.5
->>> type(y)
-float
->>> type(2.5)
-float
-```
-
-Notar que anteponiendo el carácter numeral (#) es posible agregar comentarios en el código. Por otra parte, la función **type()** es muy útil para saber a qué tipo de dato corresponde un elemento.
-
-**Operaciones Lógicas**
-
-Son operaciones en las que entran en uso el tipo de datos booleano, es decir, que nos permiten representar valores verdadero o falso. Para verlo mejor, es necesario recurrir a lo que llamamos tablas de verdad.
-Veremos muy comúnmente representar verdadero con un "1" y falso con un "0".
-
-Tabla del operador lógico "and", se verifican que A y B sean verdaderas.  
-| A | B | A and B |
-| :- | :--: | -: |
-| 1 | 0 | 0 |
-| 0 | 0 | 0 |
-| 0 | 1 | 0 |
-| 1 | 1 | 1 |
-
-Tabla del operador lógico "or", se verifican que A o B sean verdaderas. 
-| A | B | A or B |
-| :- | :--: | -: |
-| 1 | 0 | 1 |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 1 | 1 |
-
-Tambien es posible representar la negación, con el operador not()
-
-Tabla del operador lógico "Or Exclusiva", se verifica ((A and not(B)) or (not(A) and B))
-| A | B | A "or exclusiva" B |
-| :- | :--: | -: |
-| 1 | 0 | 1 |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 1 | 0 |
-
-```python
->>> a = True
->>> b = False
->>> print(a or b)
-True
-```
-
+## Ejercicio 18
+Dado un numero natural K determinar si es capicua.
 <hr width="75%">
   <p align="center">
-  Tips: Notar que las constantes "True" y "False" se escriben con la primer letra mayúscula y el resto minúsculas, de otra forma arrojaría un error
+  Nota: Un numero capicua es aquel que se lee igual de derecha a izquierda y de izquierda a derecha.
   </p>
 <hr width="75%">
 
-### Conversión de tipos de datos
+## Ejercicio 19
+Dado un numero K natural mayor a 10 mostrar todos los numeros primos quele anteceden. Por ejemplo si k =12 la salida sera {2,3,5,6,11}
 
-Puede haber ocasiones en las que desee especificar un tipo en una variable. Esto se puede hacer con lo que se denomina **casting**. 
-La conversión de tipo de dato en python se realiza mediante funciones:
 
-int(): construye un número entero a partir de un literal entero, un literal flotante (eliminando todos los decimales) o un literal de cadena (siempre que la cadena represente un número entero)
-float(): construye un número flotante a partir de un literal entero, un literal flotante o un literal de cadena (siempre que la cadena represente un flotante o un entero)
-str(): construye una cadena a partir de una amplia variedad de tipos de datos, incluidas cadenas, literales enteros y literales flotantes
-
-```python
->>> x = '2'
->>> print(type(x))
-<class 'str'>
->>> x = int(x)
->>> print(type(x))
-<class 'int'>
->>> y = int(2.8)
->>> print(y)
-2
-```
-
-## Homework
-
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/02%20-%20Variables%20y%20Tipos%20de%20Datos/Prep_Course_Homework_02.md)
-
-<table class="hide" width="100%" style='table-layout:fixed;'>
-  <tr>
-    <td>
-      <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
-        <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
-        <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
-      </a>
-    </td>
-  </tr>
-</table>
+![LogoJava](https://anthoncode.com/wp-content/uploads/2019/01/github-octocat-logo-png.png)
