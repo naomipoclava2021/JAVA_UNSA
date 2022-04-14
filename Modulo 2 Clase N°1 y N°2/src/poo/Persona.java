@@ -2,45 +2,72 @@ package poo;
 
 public class Persona {
 
-	// Atributp
 	private String nombre;
 	private String apellido;
-	private int edad;
-	private float altura;
-	private int dni;
-
+	private String dni;
+	private String domicilio;
+	
+	//constructor por defecto
 	public Persona() {
-
+		
+	}
+	
+	//consturtor de copia
+	public Persona (Persona persona) {
+		this.nombre = persona.nombre;
+		this.apellido = persona.apellido;
+		this.dni = persona.dni;
+		this.domicilio = persona.domicilio;
 	}
 
-	public Persona(String nombre, String apellido, int edad) {
-		this.nombre = nombre;
-		this.apellido = apellido;
-		this.edad = edad;
-	}
-
-	public Persona(String nombre, String apellido, int edad, float altura, int dni) {
-		this.nombre = nombre;
-		this.apellido = apellido;
-		this.edad = edad;
-		this.altura = altura;
+	//constructor normal
+	public Persona(String nom, String app, String dni, String dom){
+		this.nombre = nom;
+		this.apellido =app;
 		this.dni = dni;
+		this.domicilio = dom;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	public String getDomicilio() {
+		return domicilio;
 	}
 
+	public void setDomicilio(String domicilio) {
+		this.domicilio = domicilio;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public String getDni() {
+		return dni;
+	}
+	
+	
+
+	//mostrar
 	public void mostrar() {
-		System.out.println(this.nombre);
-		System.out.println(this.apellido);
-		System.out.println(this.edad);
-		System.out.println(this.altura);
-		System.out.println(this.dni);
+		System.out.println(getNombre());
+		System.out.println(getApellido());
+		System.out.println(getDni());
+		System.out.println(getDomicilio());
+		
 	}
-
-	public static void main(String arg[]) {
-		Persona naomi = new Persona("naomi", "poclava", 22);
-		Persona matias = new Persona("matias", "cisnero", 24, 32, 3221243);
-
-		naomi.mostrar();
-		matias.mostrar();
+	
+	public static void main(String args[]) {
+		Persona persona1 = new Persona("Cristian", "Cruz", "23233", "Democracia");
+		persona1.mostrar();
 	}
-
 }
