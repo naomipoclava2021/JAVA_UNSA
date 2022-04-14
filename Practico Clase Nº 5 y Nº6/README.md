@@ -1,161 +1,85 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
-## Grabación de la Clase 3
+# 1000 Programadores Salteños
+![MilProgramadoresSalteños](https://yt3.ggpht.com/nOWBL1Um0OIYNdmqW234zI1yxFbzgOiLR_2_fVBFb-c4mlNX0gq1KjIITaj5mywt5lZwy53Rgkc=s176-c-k-c0x00ffffff-no-rj)
 
-<div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/675579686" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
+## MODULO 1
 
-## Flujos de Control
+Arreglos. Vectores. Metodos de ordenamiento. Busquedas.
 
-### Condicionales
+## Clase N°5 y N°6
+![LogoJava](https://dev.java/assets/images/java-logo-vert-blk.png)
 
-Los condicionales son bloques de código que se ejecutan únicamente si se cumple una condición. 
-El resultado de esta condición debe ser booleano (True o False).
-Esto se logra mediante la sentencia **if**.
-Con la sentencia **elif** se puede agregar un número arbitrario de condiciones. 
-Por otra parte, se puede ejecutar código si la/s condición/es no se cumple/n con la sentencia **else**.
+### Trabajo Practico N°3 - Arreglos(Arrays) - Modulo 1
+Arreglos(Arrays). Vectores. Matrices. Metodos de ordenamiento. Busquedas.
+
+## Ejercicio 1
+Crear un array de 10 numeros enteros, con valores solicitados por teclado. Mostrar por consola el indice y el valor de cada elemento. Realizar dos metodos, uno
+para el ingreso de datos y otro para la salida de datos.
+
+## Ejercicio 2
+Crear un vector de 20 numeros reales correspondientes a los pesos de 20 personas. Obtener el peso mayor, el menor, el peso medio y visualizar un mensaje si hay
+alguna persona con un peso mayor de 100 kg.
+
+## Ejercicio 3
+Crear un vector de 10 numeros reales, con valores solicitados al usuario. Por otro lado solicitar una posicion entre 0 y 9. Eliminar el elemento situado en esa
+posicision sin dejar hueco. Visualizar el vector resultante.
+
+## Ejercicio 4
+Generar 20 numeros enteros entre 1 y 100 de forma aleatoria y contar cuantos de esos numeros enteros son divisibles entre 5.
+
+## Ejercicio 5
+Dada una lista de numeros enteros, separarla en dos listas ordenadadas de menor a mayor: la primera con los numeros pares y la segunda con los numeros impares.
+
+## Ejercicio 6
+Escriba un programa que determine si una palabra es palindromo. Palindromo: palabra o expresion que es igual si se lee de izquierda a derecha que de derecha a izquierda, por ejemplo, arenera.
+
+## Ejercicio 7
+Escriba un programa que determine la cantidad de vocales y consonantes de una palabra.
+
+## Ejercicio 8
+Ingrese 10 nombres de personas en un vector, luego ingrese un nombre cualquiera y busquelo en el vector, si el nombre aparece en el vector mostrar
+"Nombre encontrado" en caso contrario "Nombre no encontrado".
+
+## Ejercicio 9
+Crea una matriz de 3 * 3 con los numeros del 1 al 9. Mostrar por pantalla, tal como aparece en la matriz.
+
+## Ejercicio 10
+Crear dos matrices mxn y sumar sus valores, los resultados se deben almacenar en otra matriz. Los valores y la longitud, seran insertados por el usuario.
+Mostrar las matrices originales y el resultado.
 
 
-```python
->>> valor = 0
->>> if (valor < 0):
->>>     print('El número es negativo')
->>> elif (valor > 0):
->>>     print('El número es positivo')
->>> else:
->>>     print('El número es igual a cero')
-El número es igual a cero
+## Metodos o Funciones
+
+## Ejercicio 11
+Crear un metodo que reciba dos numeros reales este metodo debe devolver la multiplicacion entre esos dos numeros. Los numeros para probar este metodo deben 
+ser ingresados en el main.
+
+## Ejercicio 12
+Crear un metodo que reciba cuatro notas de un estudiante este metodo debe devolver el promedio de todas esas notas. Las notas para probar este metodo deben ser
+ingresadas en el main.
+
+## Ejercicio 13
+Crear un metodo que reciba un numero, si el numero esta entre 1 y 100, el metodo debe devolver un numero 1, en otro caso debe delvolver 0. Los datos para probar 
+este metodo deben ser ingresados en el main.
+
+## Ejercicio 14
+Crear un metodo que permita ingresar un numero, determinar si el numero es positivo, negativo o cero. En el caso que corresponda devolver "Positivo" "Negativo" o "cero". EL numero es ingresado en el main.
+
+## Ejercicio 15
+Crear un metodo que permita ingresar usuario y contraseña. Para que el usuario y contraseña sean validos el usuario tiene que ser igual a cris1234 y la contraseña
+igual a xf3C#, si el logue es existoso devulve true sino false. El usuario y contraseña son ingresados en el main, si es existoso mostrar "Logueo existo", sino 
+"error logueo".
+
+## Ejercicio 16
+Crear un metodo que reciba una opcion si la opcion es 1 dolver "inicio" si es 2 "dashboard" si es 3 devolver "home" si es 4 devolver "panel", si no es ninguna
+devolver "error". La opcion es ingresada en el main.
+
+## Ejercicio 17
+Crear el metodo primo que determine si un valor ingresado por el usuario es primo o no para esto el metodo debe devolver un boolean. Suponga que el valor
+de entrada es ingresado en el main y se debe mostrar un mensaje "ES PRIMO" o "NO ES PRIMO".
+
+
+![LogoJava](https://anthoncode.com/wp-content/uploads/2019/01/github-octocat-logo-png.png)
+```java
+System.out.println("Hola Mundo");
 ```
-
-### Ciclos Iterativos o Loops
-
-Son bloques de código que se repiten una cierta cantidad de veces en función de ciertas condiciones.
-
-Un ciclo **for** repite un bloque de código tantas veces como elementos haya dentro del rango entre 1 y 10:
-
-```python
->>> for n in range(1,10):
->>>     print(n)
-1
-2
-3
-4
-5
-6
-7
-8
-9
-```
-
-Un ciclo **while** repite un bloque de código mientras que cierta condición se cumpla:
-
-```python
->>> n = 1
->>> while (n < 10):
->>>     print(n)
->>>     n = n + 1
-1
-2
-3
-4
-5
-6
-7
-8
-9
-```
-
-<hr width="75%">
-  <p align="center">
-  Hemos llegado hasta este punto y se repasaron algunos de los conceptos más fundamentales de la programación y de Python, pero es necesario detenerse en algunos detalles, que tienen que ver precisamente con el lenguaje que estamos utilizando:
-
-  * En Python es importante la indentación, notar que el código que se ejecuta dentro de una sentencia if, for o while está indentado.
-  * También es importante notar los ":"
-  * En Python, cada vez que hagamos referencia a un rango, por ejemplo "1,10" el primer número se incluye y el último no.
-  </p>
-<hr width="75%">
-
-### Sentencia Break
-
-La sentencia break permite alterar el comportamiento de los bucles while y for. Concretamente, permite terminar con la ejecución del bucle. Esto significa que una vez se encuentra la palabra break, el bucle se habrá terminado.
-Veamos cómo podemos usar el break con bucles for. El range(5) generaría 5 iteraciones, donde la i valdría de 0 a 4. Sin embargo, en la primera iteración, terminamos el bucle prematuramente.
-El break hace que nada más empezar el bucle, se rompa y se salga sin haber hecho nada.
-
-```python
->>> for i in range(5):
->>>   print(i)
->>>   break
-0
-```
-
-Un ejemplo un poco más útil, sería el de buscar una letra en una palabra. Se itera toda la palabra y en el momento en el que se encuentra la letra que buscábamos, se rompe el bucle y se sale. Esto es algo muy útil porque si ya encontramos lo que estábamos buscando, no tendría mucho sentido seguir iterando la lista, ya que desperdiciaríamos recursos.
-
-```python
->>> cadena = 'Python'
->>> for letra in cadena:
->>>     if letra == 'h':
->>>         print("Se encontró la h")
->>>         break
->>>     print(letra)
-P
-y
-t
-Se encontró la h
-```
-
-El break también nos permite alterar el comportamiento del while. En el ejemplo, la condición while True haría que la sección de código se ejecutará indefinidamente, pero al hacer uso del break, el bucle se romperá cuando x valga cero.
-
-```python
->>> x = 5
->>> while True:
->>>     x -= 1
->>>     print(x)
->>>     if x == 0:
->>>         break
->>> print("Fin del bucle")
-4
-3
-2
-1
-0
-Fin del bucle
-```
-
-Por norma general, y salvo casos muy concretos, si ves un while True, es probable que haya un break dentro del bucle.
-
-### Sentencia Continue
-
-El uso de continue al igual que el ya visto break, permite modificar el comportamiento de de los bucles while y for.
-Concretamente, la sentencia continue se salta todo el código restante en la iteración actual y vuelve al principio en el caso de que aún queden iteraciones por completar.
-La diferencia con la sentencia break es que el continue no rompe el bucle, si no que pasa a la siguiente iteración saltando el código pendiente.
-En el siguiente ejemplo vemos como al encontrar la letra P se llama al continue, lo que hace que se salte el print(). Es por ello por lo que no vemos la letra P impresa en pantalla.
-
-```python
->>> cadena = 'Python'
->>> for letra in cadena:
->>>     if letra == 'P':
->>>         continue
->>>     print(letra)
-y
-t
-h
-o
-n
-```
-
-## Homework
-
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/03%20-%20Flujos%20de%20Control/Prep_Course_Homework_03.md)
-
-<table class="hide" width="100%" style='table-layout:fixed;'>
-  <tr>
-    <td>
-      <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
-        <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
-        <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
-      </a>
-    </td>
-  </tr>
-</table>
