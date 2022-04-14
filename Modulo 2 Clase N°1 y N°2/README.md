@@ -1,3 +1,63 @@
+# 1000 Programadores Salteños
+![MilProgramadoresSalteños](https://yt3.ggpht.com/nOWBL1Um0OIYNdmqW234zI1yxFbzgOiLR_2_fVBFb-c4mlNX0gq1KjIITaj5mywt5lZwy53Rgkc=s176-c-k-c0x00ffffff-no-rj)
+
+## MODULO 2
+### POO: Programacion Orientada a Objetos
+Conceptos de POO. Creacion de Clases y Objetos. Sintaxis y variables.
+
+## Clase N°1 y N°2
+![LogoJava](https://dev.java/assets/images/java-logo-vert-blk.png)
+
+### Trabajo Practico N°2 Modulo 2 - Clase 1 y 2
+Creacion de Clases y Objetos. Sintaxis y variables.
+
+## Ejercicio 1
+Crea un clase llamada Persona con los atributos: Nombre, Apellido, DNI, Domicilio.
+
+## Ejercicio 2
+Crea un programa en donde se muestren los diferentes tipos de comentarios que hay en Java.
+
+## Ejercicio 3
+Crear un programa en donde se declaren, al menos 3 identificadores validos y 3 invalidos, a estos poner el comentario el porque son incorrectas.
+
+## Ejercicio 4
+Declarar 5 variables de cada tipo de datos que utiliza Java. Dar formato al codigo maediante comentarios.
+
+## Ejercicio 5
+Realizar un programa en donde se muestren los difererntes operadores que existen en Java. Utiliza bloques de comentarios para estructurar el mismo.
+
+## Ejercicio 6
+Utlizar el tipo de dato entero para crear al menos 5 variables con numeros octales y haxadecimales.
+
+## Ejercicio 7
+Declarar variables de tipo cadena de caracteres y mostrarlas por pantalla.
+
+## Ejercicio 8
+Realizar un programa que realice las operaciones basicas de suma, resta, producto y division de dos numeros. Hacer con numeros enteros, y decimales.
+
+## Ejercicio 9
+Siguiendo en ejercicio anterior, mezclar sumas con numeros enteros y decimales, que sucede? Describa el resultado mediante comentarios.
+
+## Ejercicio 10
+Muestre en un ejemplo como se usan los operadores incremento y descremento.
+
+## Ejercicio 11
+Realizar un programa que muestre el uso operador relacional. Pruebe al menos 5 ejemplos.
+
+## Ejercicio 12
+Realizar un programa que muestre el uso del operador logico. Prueba al menos 5 ejemplos.
+
+## Ejercicio 13
+Realizar un programa que calcule el resultado de una expresion algebraica, use distintos operadores. Realizar al menos 3 expresiones algebraicas.
+
+## Ejercicio 14
+Conversion de tipos. Realizar un programa que muestre la conversion de tipos uppcasting y downcasting. Usar tipos enteros y decimales.
+
+## Ejercicio 15
+Sera posible almacenar un tipo de dato char en un tipo entero? De ser posible explique con comentarios el porque.
+
+
+![LogoJava](https://anthoncode.com/wp-content/uploads/2019/01/github-octocat-logo-png.png)
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 ## Grabación de la Clase 4
