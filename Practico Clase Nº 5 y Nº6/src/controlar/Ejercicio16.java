@@ -21,13 +21,13 @@ public class Ejercicio16 {
 		opcion = entrada.nextInt();
 
 		if (opcion == 1) {
-			System.out.println("INICIO");
+			System.out.println("tu eleccion fue: INICIO");
 		} else if (opcion == 2) {
-			System.out.println("DESHBOARD");
+			System.out.println("tu eleccion fue: DESHBOARD");
 		} else if (opcion == 3) {
-			System.out.println("HOME");
+			System.out.println("tu eleccion fue: HOME");
 		} else if (opcion == 4) {
-			System.out.println("PANEL");
+			System.out.println("tu eleccion fue: PANEL");
 		} else {
 			System.out.println("No ingreso el numero correcto");
 		}

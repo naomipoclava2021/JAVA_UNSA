@@ -16,7 +16,7 @@ public class Ejercicio9 {
 		num1 = ingreso.nextInt();
 		System.out.println("ingresa el segundo valor: ");
 		num2 = ingreso.nextInt();
-		System.out.println("Ingreasa le tercer valor: ");
+		System.out.println("Ingresa el tercer valor: ");
 		num3 = ingreso.nextInt();
 
 		if (num1 < num2 && num2 < num3) {
@@ -34,8 +34,6 @@ public class Ejercicio9 {
 		} else {
 			System.out.println("hay numero iguales");
 		}
-		ingreso.close();
-
 		ingreso.close();
 
 	}
