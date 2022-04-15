@@ -52,5 +52,8 @@ constructor que tenga como parametros cada uno de sus atributos. Luego crea otra
 2. Crea un ArrayList de objetos DirectorCine
 3. Añade los tres objetos DirectorCine al ArrayList usando el metodo add.
 
+```java
+System.out.print("Hola soy Naomi");
+```
 
 ![LogoJava](https://anthoncode.com/wp-content/uploads/2019/01/github-octocat-logo-png.png)
