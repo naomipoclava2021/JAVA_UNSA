@@ -10,7 +10,7 @@ Estructura de un programa en Java - Comentario - Idenficadores - Variables - Tip
 Literales - Operaciones - Expresiones - Conversion de tipos - Palabras reservadas.
 
 ## Clase N°2
-![LogoJava](https://dev.java/assets/images/java-logo-vert-blk.png)
+![LogoJava](https://w0.peakpx.com/wallpaper/30/959/HD-wallpaper-java-fiery-logo-programming-language-orange-stone-background-creative-java-logo-programming-language-signs-java.jpg)
 
 ### Trabajo Practico N°1 Modulo 1 - Clase 2
 
