@@ -6,7 +6,7 @@
 Conceptos de POO. Creacion de Clases y Objetos. Sintaxis y variables.
 
 ## Clase N°1 y N°2
-![LogoJava](https://dev.java/assets/images/java-logo-vert-blk.png)
+![LogoJava](https://c8.alamy.com/comp/2HBD1E1/ukraine-18th-dec-2021-in-this-photo-illustration-java-logo-of-a-programming-language-is-seen-on-a-smartphone-screen-photo-by-pavlo-goncharsopa-imagessipa-usa-credit-sipa-usaalamy-live-news-2HBD1E1.jpg)
 
 ### Trabajo Practico N°2 Modulo 2 - Clase 1 y 2
 Creacion de Clases y Objetos. Sintaxis y variables.
