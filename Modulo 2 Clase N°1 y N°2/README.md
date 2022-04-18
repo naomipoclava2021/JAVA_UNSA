@@ -1,232 +1,59 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+# 1000 Programadores Salteños
+![MilProgramadoresSalteños](https://yt3.ggpht.com/nOWBL1Um0OIYNdmqW234zI1yxFbzgOiLR_2_fVBFb-c4mlNX0gq1KjIITaj5mywt5lZwy53Rgkc=s176-c-k-c0x00ffffff-no-rj)
 
-## Grabación de la Clase 4
+## MODULO 2
+### POO: Programacion Orientada a Objetos
+Conceptos de POO. Creacion de Clases y Objetos. Sintaxis y variables.
 
-<div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/676013575" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
+## Clase N°1 y N°2
+![LogoJava](https://c8.alamy.com/comp/2HBD1E1/ukraine-18th-dec-2021-in-this-photo-illustration-java-logo-of-a-programming-language-is-seen-on-a-smartphone-screen-photo-by-pavlo-goncharsopa-imagessipa-usa-credit-sipa-usaalamy-live-news-2HBD1E1.jpg)
 
-## Estructuras de datos
+### Trabajo Practico N°2 Modulo 2 - Clase 1 y 2
+Creacion de Clases y Objetos. Sintaxis y variables.
 
-Anteriormente se mencionó que un dato representa la realidad, y se presentó el concepto de variable, que es un elemento que nos permite guardar un dato dentro de nuestro programa. Sin embargo, rápidamente vamos a llegar a la conclusión de que una variable puede llegar a quedar insuficiente para ciertas representaciones. Ante esta situación, en los lenguajes de programación tenemos estructuras de datos más complejas, en el caso de Python contamos con listas, tuplas y diccionarios.
+## Ejercicio 1
+Crea un clase llamada Persona con los atributos: Nombre, Apellido, DNI, Domicilio. Con los metodos: Constructor y un metodo que permita mostrar la
+informacion de la persona.
 
-### Lista
+## Ejercicio 2
+Crear una clase llamada serie con los atributosd: titulo, numero de temporadas, genero y creador. Con los siguientes metodos: Constructor, mostrar todos
+los atributos, sobrescribir todos los atributos.
 
-Una estructura de datos muy importante en Python es la lista, que consiste en una serie de elementos ordenados.
-Esos elementos pueden ser de distinto tipo, e incluso pueden ser de tipo lista también.<br>
+## Ejercicio 3
+Crear una clase NumerosEnteros y redefinir las operaciones elementales (+,-,*,/). Esta clase tendra los metodos suma(), resta(), multiplicacion() y division() que recibirar como parametros otro objeto de la misma clase NumerosEnteros.
 
-Operaciones con listas:
-* Creacion 
-```python
-mi_lista = ['Rojo','Azul','Amarillo','Naranja','Violeta','Verde']
-```
-* Imprimir
-```python
-print(mi_lista)
-```
-* Ver el tipo de dato 
-```python
-type(mi_lista)
-```
+## Ejercicio 4
+Crea una clase llamada Contador que contenga un unico atributo entero llamado con. La clase tendra los siguintes constructores: Constructor por defecto. Construtor
+con parametros para inicializar el contador con un valor negativo. Si el valor incial que se recibe  es negativo el contador tomara el valor cero como valor
+inicial. Constructor de copia. Ademas de los metodos getter y setter, la clase contendra los metodos: incrementar : increamenta el contador en una unidad.
+decrementar: decrementa el contador en una unidad. El contador nunca podra tener un valor negativo. Si al decrementar se alcanza un valor negativo el contador
+toma el valor cero.
 
-Las listas, así como otras estructuras de datos que se verán en adelante, tienen varios elementos, motivo por el cual cuando se quiere acceder en específico se requiere de un **índice** que va a hacer referencia al elemento dentro de la lista:
+## Ejercicio 5
+Escribe una clase Cuenta para representar una cuenta bancaria. Los datos de la cuenta son: nombre del cliente (String), numero de cuenta (String), tipo de 
+interes (double) y saldo (double). La clase contendra los siguientes metodos: Constructor por defecto y Constructor con todos los parametros Constructor de Copia.
+Metodos setters/getters para asignar y obtener los datos de la cuenta. Metodos ingreso y reintegro. Un ingreso consiste en aumentar el saldo en la cantidad
+que se indique.
+Esa cantidad no puede ser negativa. Un reintegro consiste en disminuir el saldo en una cantidad pero antes se debe comprobar que hay saldo suficiente. La cantidad
+no puede ser negativa. Los metodos ingreso y reintegro devuelve true si la operacion se ha podido realizar o false en caso contrario. Metodo de tranferencia
+que permita pasar dinero de una cuenta a otra siempre que en la cuenta de origen haya dinero suficiente para poder hacerla. Ejemplo de uso del metodo transferencia:
+cuentaOrigen.transferencia(cuentaDestino, importe); que indica que queremos hacer una trasferencia desde cuentaOrigen a cuentaDestino del importe indicado.
 
-* Imprimir el tercer elemento de la lista (el índice comienza en cero)
-```python
-print(mi_lista[2])
-```
-* Acceder a un rango dentro de la lista (el límite inferior se incluye y el superior se excluye)
-```python
-print(mi_lista[0:2])
-```
-* Al no poner primer valor, Python asume que es un 0
-```python
->>> print(mi_lista[:2])
-['Rojo', 'Azul']
-```
-* Al no poner segundo valor, Python asume que se trata de todos los elementos a partir del primero 
-```python
- >>> print(mi_lista[0:])
- ['Rojo', 'Azul', 'Amarillo', 'Naranja', 'Violeta', 'Verde']
- ```
-* Agregar un elemento al final de la lista (Si el elemento ya existe va a quedar duplicado)
-```python
-mi_lista.append('Blanco') 
-```
-* Agregar un elemento especificando el índice 
-```python
- >>> mi_lista.insert(3,'Negro')
- >>> print(mi_lista[:])
-['Rojo', 'Azul', 'Amarillo', 'Negro', 'Naranja', 'Violeta', 'Verde']
-```
-* Concatenar una nueva lista a la lista previamente creada 
-```python
-mi_lista.extend(['Marrón','Gris'])
-```
-* Encontrar el índice de un valor específico 
-```python
->>> print(mi_lista.index('Azul'))
-1
-```
-* Eliminar un elemento de la lista (Si el elemento no existe va a arrojar un error)
-```python 
->>> mi_lista.remove('Blanco') 
----------------------------------------------------------------------------
-ValueError                                Traceback (most recent call last)
-~\AppData\Local\Temp/ipykernel_10044/308548076.py in <module>
-----> 1 mi_lista.remove('Blanco')
+## Ejercicio 6
+Crea una clase DirectorCine con los atributos nombre (String), apellido(String) y edad (int). Crea los metodos get y set para los atributos. Crea el metodo 
+constructor que tenga como parametros cada uno de sus atributos. Luego crea otra clase llamada testEjercicio con el metodo main y sigue los siguientes pasos: 
 
-ValueError: list.remove(x): x not in list
->>> mi_lista.remove('Negro') 
-```
-* Extraer y recuperar el último elemento de la lista 
-```python 
->>> ultimo = mi_lista.pop()
->>> print(ultimo)
-Gris
-```
-* Multiplicar la lista 3 veces 
-```python 
->>> print(['a','b','c'] * 3)
-['a', 'b', 'c', 'a', 'b', 'c', 'a', 'b', 'c']
-```
-* Ordenar una lista de menor a mayor
-```python 
->>> lista= [1,4,3,6,8,2]
->>> lista.sort()
->>> print(lista)
-[1,2,3,4,6,8]
-```
-* Ordenar una lista de mayor a menor
-```python 
->>> lista= [1,4,3,6,8,2]
->>> lista.sort(reverse=True)
->>> print(lista)
-[8,6,4,3,2,1]
+1. En el main, crea tres objetos DirectorCine que tengan como atributos respectivamente:
+
+* Pedro, Gomez, 31.
+* Juan, Suarez, 55.
+* Elena, Albucar, 29.
+
+2. Crea un ArrayList de objetos DirectorCine
+3. Añade los tres objetos DirectorCine al ArrayList usando el metodo add.
+
+```java
+System.out.print("Hola soy Naomi");
 ```
 
-### Tupla
-
-Son una estructura similar a las listas, la diferencia está en que no se pueden modificar una vez creadas, es decir que son **inmutables**:
-
-* Convertir una lista a tupla 
-```python 
-mi_tupla=tuple(mi_lista)
-```
-* Imprimir el índice 1 de la tupla 
-```python 
->>> print(mi_tupla[1])
-Azul
-```
-* Evaluar si un elemento está contenido en la tupla (Devuelve un valor booleano)
-```python
->>> 'Rojo' in mi_tupla
-True
-```
-* Evaluar las veces que está un elemento específico 
-```python
->>> mi_tupla.count('Rojo')
-1
-```
-* Tupla con un solo elemento 
-```python
-mi_tupla_unitaria = ('Blanco',)
-```
-* Empaquetado de tupla, tupla sin paréntesis 
-```python
-mi_tupla='Gaspar', 5, 8, 1999
-```
-* Desempaquetado de tupla, se guardan los valores en orden de las variables 
-```python
->>> nombre, dia, mes, año = mi_tupla
->>> print("Nombre: ", nombre, " - Dia:", dia, " - Mes: ", mes, " - Año: ", año)
-Nombre:  Gaspar  - Dia: 5  - Mes:  8  - Año:  1999
-```
-* Convertir una tupla en una lista 
-```python
-mi_lista=list(mi_tupla)
-```
-
-### Diccionario
-
-Un diccionario tiene una organización de 'clave' y 'valor':
-
-* Crear un diccionario 
-```python
-mi_diccionario = {  'Colores Primarios': ['Rojo','Azul','Amarillo'], 
-                    'Colores secundarios': ['Naranja','Violeta','Verde'], 
-                    'Clave3': 10,
-                    'Clave4': False}
-```
-* Imprimir un valor a través de su clave 
-```python
->>> print(mi_diccionario['Colores secundarios'])
-['Naranja', 'Violeta', 'Verde']
-```
-* Agregar un valor 
-```python
-mi_diccionario['Clave5']='Otro ejemplo'
-```
-* Cambiar un valor 
-```python
-mi_diccionario['Clave3']=2
-```
-* Eliminar un elemento de un diccionario a través de su clave 
-```python
-del mi_diccionario['Clave4']
-```
-* Utilizar una tupla como clave de un diccionario 
-```python
-mi_tupla=("Argentina", "Italia", "Inglaterra")
-mi_diccionario={mi_tupla[0]:"Buenos Aires", 
-                mi_tupla[1]:"Roma", 
-                mi_tupla[2]:"Londres"}
-```
-* Colocar una tupla dentro de un diccionario 
-```python
-mi_diccionario={'Clave1':'Valor1', 'Clave2':(1,2,3,4,5)}
-```
-* Colocar una lista dentro de un diccionario (Notar que la diferencia está en el paréntesis '()' y el corchete '[]')
-```python
- mi_diccionario={'Clave1':'Valor1', 'Clave2':[1,2,3,4,5]} 
- ```
-* Colocar un diccionario dentro de un diccionario 
-```python
-mi_diccionario={'Clave1':'Valor1', 'Clave2':{'numeros':[1,2,3,4,5]}}
-```
-* Imprimir las claves del diccionario 
-```python
- >>> print(mi_diccionario.keys())
- dict_keys(['Clave1', 'Clave2'])
- ```
-* Imprimir los valores del diccionario 
-```python
- >>> print(mi_diccionario.values())
- dict_values(['Valor1', {'numeros': [1, 2, 3, 4, 5]}])
- ```
-* Imprimir la longitud del diccionario 
-```python
- >>> len(mi_diccionario)
- 2
- ```
-<hr width="75%">
-  <p align="center">
-  Tips: La funcionalidad **del** permite eliminar cualquier estructura de datos y la funcionalidad **len** permite obtener el tamaño de la estructura de datos
-  </p>
-<hr width="75%">
-
-## Homework
-
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/04%20-%20Estructuras%20de%20datos/Prep_Course_Homework_04.md)
-
-<table class="hide" width="100%" style='table-layout:fixed;'>
-  <tr>
-    <td>
-      <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
-        <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
-        <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
-      </a>
-    </td>
-  </tr>
-</table>
+![LogoJava](https://anthoncode.com/wp-content/uploads/2019/01/github-octocat-logo-png.png)
