@@ -4,13 +4,13 @@ Herencias. Polimosfismo. Objetos dentros de objetos. Encapsular atributos y meto
 ## Ejercicio N° 1
 Usando la clase "Personas" (practico N°2 - Clase 1 ejercicio nro 1). Crear una clase "Alumno" que herede los atributos y metodos de 
 "PERSONAS" y agregar los siguientes: 
-. Atributos notas: array de notas (matematica, lengua, historia).
 
-. Metodos: 
 
-    . Constructor(se deben pasar los parametros del alumno)
-    . generar_notas(): se generan de forma aleatoria
-    . mostrar_notas(): muestra las notas del alumno
+- Atributos notas: array de notas (matematica, lengua, historia).
+- Metodos: 
+  - Constructor(se deben pasar los parametros del alumno)
+  - generar_notas(): se generan de forma aleatoria
+  - mostrar_notas(): muestra las notas del alumno
 
 ## Ejercicio N° 2
 Escriba una clase que implemente la siguiente jerarquia de clases:
