@@ -10,13 +10,13 @@ System.out.println("Hola soy Naomi");
 ```
 ## MODULO 1
 TEMAS
-### Formulación de problemas. Etapas en la resolución de problemas computacionales. Algoritmo. Definición. Características. Primeros pasos en java. Estructuras fundamentales. Variables y Constantes. Tipos de datos primitivos: Números, enteros y flotantes. Cadenas. Operadores Aritméticos combinados con asignación. Arreglos y vectores. Sentencia if. Expresiones anidadas. Ciclos o bucles (sentencia while - sentencia for). Métodos de Ordenamiento. Búsquedas. Operadores lógicos.
+Formulación de problemas. Etapas en la resolución de problemas computacionales. Algoritmo. Definición. Características. Primeros pasos en java. Estructuras fundamentales. Variables y Constantes. Tipos de datos primitivos: Números, enteros y flotantes. Cadenas. Operadores Aritméticos combinados con asignación. Arreglos y vectores. Sentencia if. Expresiones anidadas. Ciclos o bucles (sentencia while - sentencia for). Métodos de Ordenamiento. Búsquedas. Operadores lógicos.
 
 ## MODULO 2
 Programación Orientada a Objetos
 
 TEMAS 
-### Conceptos de POO. Creación de Clases y Objetos.  Sintaxis y variables. Métodos de clases y métodos especiales. Herencias. Polimorfismo. Objetos dentro de objetos. Encapsular atributos y métodos.
+Conceptos de POO. Creación de Clases y Objetos.  Sintaxis y variables. Métodos de clases y métodos especiales. Herencias. Polimorfismo. Objetos dentro de objetos. Encapsular atributos y métodos.
 
 ![LogoGitHub](https://anthoncode.com/wp-content/uploads/2019/01/github-octocat-logo-png.png)
 
