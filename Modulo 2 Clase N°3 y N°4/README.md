@@ -80,4 +80,11 @@ Crear una Clase Taxi que contenga los siguientes atributos: id, numero Taxi, tip
 Los  metodos deben ser probados en el objeto creado ingresando valores a su eleccion y mostrando los resultados.
 
 ## Ejercicio N ° 7
-Crear una Clase Producto que
+Crear una Clase Producto que contenga los siguientes atributos: id, nombre, categoria, precio, stock. Crear un objeto Producto utilizando un constructor a su eleccion. Dentro  de la clase crear los siguientes metodos:
+
+. Crear un metodo validarStock este metodo debe devolver un true si es que tiene stock disponible, sino lo tinene devolver false.
+
+. Crear un metodo vender este metodo debe recibir una categoria y la unidades que se desean vender, el metodo debe validar usando el  metodo anterior si  hay stock antes de realizar la venta, si se puede vender debemos comprobar que la categoria ingresada sea igual a la del producto si es asi recien se puede relizar la venta por lo cual debe mostrar el total a pegar por la venta y actualizar el stock del producto, en cualquier de los otros casos que no se pueda vender mostrar un mensaje de error a su eleccion.
+
+. Crear un metodo comprar este metodo debe recibir como parametro las cantidad de producto y la categoria, si la categoria coincide con la del producto actual y el stock actual, mostrar un mensaje "no se pudo agregar la compra". Los metodos deben ser probados en el objeto creado ingresando valores a su eleccion y mostrando los resultaodos. Cuando quiera probar el metodo validadr en la consola debe mostrar en vez de true "si tiene stock", y en vez de false "no tiene stock".
+
