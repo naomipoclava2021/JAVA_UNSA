@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="poo.NumerosEnteros"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>
