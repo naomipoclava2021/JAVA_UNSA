@@ -1,8 +1,4 @@
 INDEX VERSION 1.131+C:\Users\milag\OneDrive\Escritorio\JAVA_UNSA\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
 2950073124.index
-2866413384.index
-3549245189.index
-1582529299.index
-548392719.index
 760091825.index

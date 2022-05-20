@@ -10,7 +10,9 @@ public class ejercicio_2 {
 		int num=0;
 		
 		do {
-			System.out.println("Ingrese un valor entero: ");
+			if(num != 13 && num !=10) {
+				System.out.println("Ingrese un valor entero: ");
+			}
 			num= System.in.read();
 		} while (num<48 || num>=58);
 		
