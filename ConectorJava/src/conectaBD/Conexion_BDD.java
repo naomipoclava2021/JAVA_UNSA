@@ -16,6 +16,7 @@ public class Conexion_BDD {
 	public static void main(String args[]) {
 		 Connection conn = null;
 		 Statement stmt = null;
+		 Statement stmt2 = null;
 		 
 		 try{
 		 //PASO 2: Registrar JDBC driver
@@ -28,9 +29,16 @@ public class Conexion_BDD {
 		 //PASO 4: Ejecutar una consulta SQL
 		 System.out.println("Creating statement...");
 		 stmt = conn.createStatement();
+		 System.out.println("Creating statement...");
+		 stmt2 = conn.createStatement();
 		 String sql;
-		 sql = "SELECT Name, Code, Population FROM country";
+		 
+		 
+		 sql = "SELECT Code, Name, Population FROM  country;";
 		 ResultSet rs = stmt.executeQuery(sql);
+		 
+		 sql = "SELECT Code, Name, Continent, GovernmentForm  FROM country;";
+		 ResultSet rs2 = stmt2.executeQuery(sql);
 		 
 		 //STEP 5: Extraer datos del ResultSet
 		 while(rs.next()){
@@ -38,16 +46,34 @@ public class Conexion_BDD {
 		 int population = rs.getInt("Population");
 		 String Name = rs.getString("Name");
 		 String CountryCode = rs.getString("Code");
+		 
 		 //Mostrar Valores
-		 System.out.print("Pais: " + Name);
 		 System.out.print(", Codigo Pais: " + CountryCode);
+		 System.out.print("Pais: " + Name);
 		 System.out.print(", Poblacion: " + population + " habitantes");
+		 System.out.println();
+		 }
+		 
+//		//STEP 5: Extraer datos del ResultSet
+		 while(rs2.next()){
+		 //Recibir por tipo de columna
+		 String Code = rs2.getString("Code");
+		 String Name = rs2.getString("Name");
+		 String Continent = rs2.getString("Continent");
+		 String GovernmentForm = rs2.getString("GovernmentForm");
+		 //Mostrar Valores
+		 System.out.print("Code: " + Code+ " ");
+		 System.out.print("Name: " + Name+" " );
+		 System.out.print("Continent: " + Continent+ " ");
+		 System.out.print("GovernmentForm: "+ GovernmentForm);
 		 System.out.println();
 		 }
 		 
 		 //PASO6: Entorno de Limpieza
 		 rs.close();
+		 rs2.close();
 		 stmt.close();
+		 stmt2.close();
 		 conn.close();
 		 }catch(SQLException se){
 			 // Resolver errores para JDBC
